@@ -42,7 +42,3 @@ git clone git@github.com:CCharlesMeng/ioc-skills.git
 - `skills/` — `ioc-sketch-decode`、`ioc-spec`、`ioc-data-plan`、`ioc-frontend-plan`
 - `docs/` — 设计总览、指南与示例工单产物
 - `PRINCIPLES.md` — Skill-User 交互黄金原则（部分 skill 的 `SKILL.md` 会引用）
-
-## 与 moon-skills 的关系
-
-本仓库与 [moon-skills](https://github.com/ccharlesmeng/moon-skills) 并列维护；moon-skills 聚焦分析驱动 SDD 主链（initialize、analysis-spec、design-pack 等），IOC 流水线单独在此仓库演进。
