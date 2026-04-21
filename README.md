@@ -13,31 +13,28 @@ ioc-sketch-decode → ioc-spec → ioc-data-plan ─┬→ ioc-frontend-plan →
 
 ## Installation
 
-安装整个仓库（将 `<owner>/ioc-skills` 替换为实际上线后的 GitHub 路径）：
+安装整个仓库：
 
 ```bash
-npx skills add <owner>/ioc-skills
+npx skills add CCharlesMeng/ioc-skills
 ```
 
 只安装单个 skill：
 
 ```bash
-npx skills add <owner>/ioc-skills --skill ioc-spec
+npx skills add CCharlesMeng/ioc-skills --skill ioc-spec
 ```
 
 列出本仓库中的 skills：
 
 ```bash
-npx skills add <owner>/ioc-skills --list
+npx skills add CCharlesMeng/ioc-skills --list
 ```
 
-> **Note:** 在 GitHub 仓库创建并推送本目录后，把上述 `<owner>/ioc-skills` 换成你的 `组织名/仓库名`。
-
-首次推送到新建的 GitHub 空仓库时（将 URL 换成你的远程地址，分支名以本地为准）：
+克隆本仓库：
 
 ```bash
-git remote add origin https://github.com/<owner>/ioc-skills.git
-git push -u origin main
+git clone git@github.com:CCharlesMeng/ioc-skills.git
 ```
 
 ## Repository Layout
