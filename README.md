@@ -33,6 +33,13 @@ npx skills add <owner>/ioc-skills --list
 
 > **Note:** 在 GitHub 仓库创建并推送本目录后，把上述 `<owner>/ioc-skills` 换成你的 `组织名/仓库名`。
 
+首次推送到新建的 GitHub 空仓库时（将 URL 换成你的远程地址，分支名以本地为准）：
+
+```bash
+git remote add origin https://github.com/<owner>/ioc-skills.git
+git push -u origin main
+```
+
 ## Repository Layout
 
 - `skills/` — `ioc-sketch-decode`、`ioc-spec`、`ioc-data-plan`、`ioc-frontend-plan`
