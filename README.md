@@ -40,5 +40,5 @@ git clone git@github.com:CCharlesMeng/ioc-skills.git
 ## Repository Layout
 
 - `skills/` — `ioc-sketch-decode`、`ioc-spec`、`ioc-data-plan`、`ioc-frontend-plan`
-- `docs/` — 设计总览、指南与示例工单产物
+- `docs/` — 设计总览、指南、[数据开发流程](docs/数据开发流程.md)（规范摘录）、示例工单产物
 - `PRINCIPLES.md` — Skill-User 交互黄金原则（部分 skill 的 `SKILL.md` 会引用）
